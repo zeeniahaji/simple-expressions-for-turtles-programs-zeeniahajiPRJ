@@ -1,0 +1,4 @@
+/* XPECT_SETUP uk.ac.kcl.inf.mdd2.tests.literals.LitExpTest  END_SETUP */
+forward(1+0)
+forward(10 + 10)
+backward(10 + 10 + 5)

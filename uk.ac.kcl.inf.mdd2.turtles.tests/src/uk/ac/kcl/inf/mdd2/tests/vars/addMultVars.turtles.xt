@@ -1,0 +1,7 @@
+/* XPECT_SETUP uk.ac.kcl.inf.mdd2.tests.vars.ExpressionsTest  END_SETUP */
+var x=5
+var x=5
+
+forward(1+0)
+forward(x + 10)
+backward(10 + x * x)
