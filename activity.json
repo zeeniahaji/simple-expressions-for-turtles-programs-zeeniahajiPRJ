@@ -75,14 +75,16 @@
                     "childPanels": [
                         {
                             "id": "panel-mm",
-                            "name": "XMI text format",
-                            "ref": "ecore",
-                            "file": "{{ID-panel-turtles}}/xtext-resources/generated/meta-model.ecore"
+                            "name": "Editor",
+                            "extension": "turtles",
+                            "buttons": [],
+                            "ref": "xtext-editor",
+                            "file": "example/test.turtles"
                         },
                         {
-                            "id": "panel-diagram",
-                            "name": "Metamodel Diagram",
-                            "ref": "emfgraph"
+                            "id": "panel-console",
+                            "name": "Console",
+                            "ref": "Console"
                         }
                     ],
                     "buttons": [
